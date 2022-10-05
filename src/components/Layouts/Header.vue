@@ -6,7 +6,7 @@
         <a class="nav-link text-white" href="#">خانه</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white" href="#">مقالات</a>
+        <router-link to="/article" class="nav-link text-white" href="#">مقالات</router-link>
       </li>
       <li class="nav-item">
         <a class="nav-link text-white" href="#">تماس با ما</a>
