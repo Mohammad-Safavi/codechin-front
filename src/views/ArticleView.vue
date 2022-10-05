@@ -1,7 +1,7 @@
 <template>
   <div class="container mt-5">
     <div class="row">
-      <div v-for="x in list" :key="x.id" class="col-sm-4 mb-3">
+      <div v-for="x in list" :key="x.id" class="col-sm-4 col-1 mb-3">
         <div class="card">
           <img :src="x.pic_link" class="card-img-top ar-card" alt="..." />
           <div class="card-body">
