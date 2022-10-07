@@ -9,7 +9,6 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      redirect: "/article",
       component: HomeView
     },
     {
@@ -18,7 +17,7 @@ const router = createRouter({
       component: ArticleView
     }, 
     {
-      path: '/article/:id',
+      path: '/article/:id/:slug?',
       name: 'article-details',
       component: ArticleViewDetails
     },
